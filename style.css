@@ -163,6 +163,7 @@ nav>a>button:hover {
 /*Terceira Parte*/
 
 .estatisticas {
+    backgroun-color: black;
     animation: fadeIn 0.9s ease-in forwards;
     padding: 10px;
     display: grid;
