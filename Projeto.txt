@@ -1,0 +1,133 @@
+🎧 Projeto — Site Oficial do MC Cabelinho
+🧭 Navbar
+Logo
+MC Cabelinho (logo clicável)
+Links de navegação
+Home (link)
+Música (link)
+Sobre (link)
+Contato (link)
+Botão Principal
+Ouvir Agora
+🔥 Hero
+Imagem
+Foto principal do MC Cabelinho.
+Título (H1)
+MC Cabelinho
+Subtítulo
+A voz da nova geração do funk.
+Descrição
+Pequeno texto apresentando o artista.
+Botões
+🎵 Ouvir Agora
+▶ Assistir Clipe
+📊 Estatísticas
+Título (H2)
+
+Em Números
+
+Cards (4)
+Card 1
+Ícone 🎧
+15M+
+Ouvintes Mensais
+Card 2
+Ícone 🔥
+4B+
+Streams Totais
+Card 3
+Ícone 🎤
+500+
+Shows Realizados
+Card 4
+Ícone 💿
+120+
+Músicas Lançadas
+🎵 Músicas em Destaque
+Título (H2)
+
+Principais Sucessos
+
+Card 1
+Capa da música
+Nome
+Ano
+Botão Ouvir
+Card 2
+Capa da música
+Nome
+Ano
+Botão Ouvir
+Card 3
+Capa da música
+Nome
+Ano
+Botão Ouvir
+💿 Discografia
+Título (H2)
+
+Discografia
+
+Card 1
+Imagem
+Álbuns
+Link "Ver Mais"
+Card 2
+Imagem
+Singles
+Link "Ver Mais"
+Card 3
+Imagem
+EPs
+Link "Ver Mais"
+Card 4
+Imagem
+Colaborações
+Link "Ver Mais"
+👤 Sobre
+Imagem
+Foto profissional do artista.
+Título (H2)
+
+Sobre o Artista
+
+Subtítulo
+
+Quem é MC Cabelinho?
+
+Texto
+Início da carreira.
+Estilo musical.
+Trajetória.
+Principais conquistas.
+Botão
+Conheça a Trajetória
+📞 Contato
+Título (H2)
+
+Vamos nos Conectar
+
+Texto
+
+"Acompanhe os lançamentos, videoclipes e novidades do MC Cabelinho pelas plataformas oficiais."
+
+Redes Sociais (ícones clicáveis)
+Spotify
+YouTube
+Instagram
+Botão Principal
+Ouvir Agora
+🦶 Footer
+Logo
+MC Cabelinho
+Links
+Home
+Música
+Sobre
+Contato
+Redes Sociais
+Spotify
+YouTube
+Instagram
+Texto
+© 2026 MC Cabelinho. Todos os direitos reservados.

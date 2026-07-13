@@ -1,0 +1,547 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/*.bebas-neue-regular {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+.poppins-thin {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+}
+}*/
+
+/*
+
+cores escuras:
+
+#000004
+#1D402D
+
+cores claras:
+
+#1D402D
+
+luxo: 
+
+
+/
+#E4A030
+
+*/
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #1A0505;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 0 0 0px;
+}
+
+
+nav {
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 0.8%;
+    gap: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    background-color: black;
+}
+
+nav>img {
+    margin: 0px;
+    width: 40px;
+    height: 40px;
+    border-radius: 200%;
+}
+
+nav>a {
+    color: #FFFFFF;
+    justify-content: center;
+    margin-top: 0px;
+    text-align: center;
+    text-decoration: none;
+    font-family: "Bebas Neue", sans-serif;
+    color: white;
+    display: flex;
+    transition: 0.5s;
+}
+
+
+a:hover {
+    color: #FFD074;
+}
+
+nav>a>button {
+    border: none;
+    font-family: "Poppins", sans-serif;
+    color: white;
+    background-color: #E4A030;
+    border-radius: 4px;
+    padding: 2px;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.6s;
+}
+
+nav>a>button:hover {
+    background-color: #ce8f2bcb;
+}
+
+
+/*Segunda parte*/
+
+.hero {
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    /* empilha os itens verticalmente */
+    justify-content: center;
+    margin: auto;
+    background-color: #1A0505;
+    width: 100%;
+    height: 250px;
+    padding: 5px;
+}
+
+.hero>h1 {
+    margin: 0 0 0 0px;
+    padding: 0px;
+    font-family: "Bebas Neue", sans-serif;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.hero>h2 {
+    color: #FFD074;
+    margin: 3px;
+    padding: 0px;
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+.hero>p {
+    margin: 5px;
+    padding: 0px;
+    color: white;
+    text-align: center;
+}
+
+.hero>div {
+    gap: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.hero>div>a>button {
+    border: none;
+    font-family: "Poppins", sans-serif;
+    color: white;
+    background-color: #E4A030;
+    padding: 2px;
+    border-radius: 7px;
+    width: 100px;
+    cursor: pointer;
+    transition: 0.6s;
+}
+
+.hero>div>a>button:hover {
+    background-color: #ce8f2bcb;
+}
+
+/*Terceira Parte*/
+
+.estatisticas {
+    animation: fadeIn 0.9s ease-in forwards;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 20px;
+    flex-wrap: wrap;
+    /* pra quebrar linha em telas menores */
+}
+
+.cards {
+    margin: 10px 0px 10px 0px;
+    background-color: #1C1815;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+}
+
+.cards>h2 {
+    color: white;
+    text-align: center;
+    margin: 0 3px;
+}
+
+.cards>h3,
+.cards>p {
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    margin: 0px;
+}
+
+.cards>p {
+    font-family: "Poppins", sans-serif;
+}
+
+/*Quarta Parte*/
+
+.cards2>h2 {
+    text-align: center;
+    color: #FFFFFF;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+.sucessos {
+    animation: fadeIn 1s ease-in forwards;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(15px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.sucessos>div>img {
+    border-radius: 5px;
+    display: flex;
+    width: 70px;
+    height: 70px;
+}
+
+.sucessos>div>h3 {
+    font-family: "Bebas Neue", sans-serif;
+    color: #FFFFFF;
+    text-align: center;
+    margin: 0px
+}
+
+.sucessos>div>p {
+    font-size: 14px;
+    margin: 5px;
+    font-family: "Bebas Neue", sans-serif;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.sucessos>div {
+    gap: 10px;
+    padding: 10px;
+    text-align: center;
+    margin: auto;
+}
+
+.ajustada {
+    display: block;
+    margin: 0 auto;
+}
+
+.sucessos>div>a>button {
+    border: none;
+    padding: 3px;
+    width: 60%;
+    border-radius: 5px;
+    background-color: #E4A030;
+    color: white;
+    cursor: pointer;
+    transition: 0.6s;
+}
+
+.sucessos>div>a>button:hover {
+    background-color: #ce8f2bcb;
+}
+
+
+/*Quinta Parte*/
+
+.discografia {
+    margin: auto;
+    animation: fadeIn 2s ease-in forwards;
+    flex-direction: column;
+}
+
+.discografia>h2 {
+    color: #FFFFFF;
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+.discografia>p {
+    font-size: 12px;
+    margin: 5px;
+    color: #FFFFFF;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+}
+
+.div1 {
+    text-align: center;
+    margin: 0 auto;
+    padding: 10px;
+    gap: 10px;
+}
+
+.cards3 {
+    gap: 1px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.div1>img {
+    border-radius: 5px;
+    width: 110px;
+    height: 110px;
+}
+
+.div1>h3 {
+    margin: 0px;
+    color: #FFFFFF;
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+.div1>p {
+    margin: 5px;
+    font-family: "Bebas Neue", sans-serif;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.div1>a>button {
+    border: none;
+    text-align: center;
+    padding: 4px;
+    width: 80px;
+    border-radius: 5px;
+    background-color: #E4A030;
+    color: white;
+    cursor: pointer;
+    transition: 0.6s;
+}
+
+.div1>a>button:hover {
+    background-color: #ce8f2bcb;
+}
+
+
+
+.sobre {
+    animation: fadeIn 3s ease-in forwards;
+    margin: 30px 0px 40px 0px;
+    display: flex;
+    padding: 10px;
+    gap: 20px;
+}
+
+.sobre>img {
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 50%
+}
+
+.sobre>div {
+    flex-direction: column;
+    margin: auto;
+}
+
+.sobre>div>h2 {
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+    color: #FFFFFF;
+}
+
+.sobre>div>p {
+    font-size: 13px;
+    text-align: center;
+    color: #FFFFFF;
+    font-family: "Poppins", sans-serif;
+}
+
+.sobre>div>a {
+    text-decoration: none;
+}
+
+.sobre>div>a>button {
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+    border: none;
+    padding: 6px;
+    border-radius: 7px;
+    color: #FFFFFF;
+    background-color: #E4A030;
+    display: block;
+    margin: 0 auto;
+    transition: 0.6s;
+}
+
+.sobre>div>a>button:hover {
+    background-color: #ce8f2bcb;
+}
+
+/*Sexta Parte*/
+
+.contato {
+    animation: fadeIn 4s ease-in forwards;
+    margin: 40px 0px 40px 0px;
+    display: flex;
+}
+
+.contato>div {
+    display: flex;
+    flex-direction: column;
+}
+
+.contato>div>h2 {
+    margin: 10px;
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+    color: #FFFFFF;
+}
+
+.contato>div>p {
+    text-align: center;
+    color: #FFFFFF;
+    font-family: "Poppins", sans-serif;
+}
+
+.contato>div>a {
+    font-family: "Bebas Neue", sans-serif;
+    text-decoration: none;
+    color: #FFD074;
+    text-align: center;
+    flex-direction: column;
+    transition: 0.5s;
+}
+
+.contato>div>a:hover {
+    color: #FFFFFF;
+}
+
+.contato>div>button {
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+    color: #FFFFFF;
+    background-color: #E4A030 !important;
+    border-radius: 5px;
+    border: none;
+    padding: 3px;
+    display: block;
+    margin: 0 auto;
+    width: 90px;
+    transition: 0.6s;
+}
+
+.contato>div>a>button:hover {
+    background-color: #ce8f2bcb;
+}
+
+.contato>img {
+    border-radius: 3px;
+    width: 50%;
+    height: 50%;
+}
+
+/*Sétima Parte*/
+
+footer {
+    animation: fadeIn 4s ease-in forwards;
+}
+
+footer>h2 {
+    margin: 10px 0px 0px 10px;
+    letter-spacing: 4px;
+    color: #FFFFFF;
+    font-family: "Bebas Neue", sans-serif;
+    text-align: center;
+}
+
+footer>div {
+    margin: auto;
+    display: flex;
+}
+
+
+.links {
+    margin: 0 0 0px auto;
+    flex-direction: column;
+}
+
+.links>h3 {
+    color: #FFD074;
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+.links>a {
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+    color: #D9D9D9;
+    display: flex;
+    flex-direction: column;
+    transition: 0.3s;
+}
+
+.links>a:hover {
+    color: #FFFFFF;
+}
+
+.rdssociais {
+    margin: 0 auto;
+    flex-direction: column;
+}
+
+.rdssociais>h3 {
+    color: #FFD074;
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+.rdssociais>a {
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+    color: #D9D9D9;
+    display: flex;
+    flex-direction: column;
+    transition: 0.3s;
+}
+
+.rdssociais>a:hover {
+    color: #FFFFFF;
+}
+
+footer>p {
+    font-family: "Poppins", sans-serif;
+    font-size: 10px;
+    font-weight: 300;
+    color: #D9D9D9;
+    text-align: center;
+}
