@@ -364,12 +364,11 @@ nav>a>button:hover {
     border-radius: 5px;
     align-items: center;
     justify-content: center;
-    width: 50%;
-    height: 50%
+    width: 40%;
+    height: 40%;
 }
 
 .sobre>div {
-    flex-direction: column;
     margin: auto;
 }
 
@@ -380,6 +379,7 @@ nav>a>button:hover {
 }
 
 .sobre>div>p {
+    margin: 0px;
     font-size: 13px;
     text-align: center;
     color: #FFFFFF;
@@ -394,7 +394,7 @@ nav>a>button:hover {
     cursor: pointer;
     font-family: "Poppins", sans-serif;
     border: none;
-    padding: 4px;
+    padding: 6px;
     border-radius: 7px;
     color: #FFFFFF;
     background-color: #E4A030;
@@ -413,6 +413,11 @@ nav>a>button:hover {
     animation: fadeIn 4s ease-in forwards;
     margin: 40px 0px 40px 0px;
     display: flex;
+}
+
+.contato>img {
+    width: 100%;
+    max-width: 100%;
 }
 
 .contato>div {
@@ -466,8 +471,9 @@ nav>a>button:hover {
 
 .contato>img {
     border-radius: 3px;
-    width: 50%;
-    height: 50%;
+    width: 40%;
+    height: 40%;
+    height: auto;
 }
 
 /*Sétima Parte*/
@@ -487,12 +493,16 @@ footer>h2 {
 footer>div {
     margin: auto;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
 }
 
 
 .links {
     margin: 0 0 0px auto;
     flex-direction: column;
+    min-width: 140px;
 }
 
 .links>h3 {
