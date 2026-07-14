@@ -175,7 +175,7 @@ nav>a>button:hover {
 
 .cards {
     margin: 10px 0px 10px 0px;
-    background-color: #1C1815;
+    background-color: black;
     text-align: center;
     display: flex;
     flex-direction: column;
